@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCTOR APPOINTMENT </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #FFFFFF;
+            font-family: sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            height: 100px;
+            align-items: center;
+            background-color: #FFFFFF;
+            padding-top: 50px;
+        }
+        
+        .parent1 h2 {
+            color: #28BF96;
+            font-size: 28px;
+        }
+        
+        .parent2 a {
+            text-decoration: none;
+            padding: 0.8rem;
+            color: rgb(88, 88, 88);
+        }
+        
+        .parent2 a:hover {
+            color: #51BF99;
+            transition: color 0.4s ease;
+        }
+        
+        .parent3 button {
+            background-color: #28BF96;
+            border: none;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: color 0.4s ease;
+            cursor: pointer;
+        }
+        
+        .parent3 button:hover {
+            background-color: #209677;
+        }
+        
+        .parent4 {
+            display: flex;
+            width: 100%;
+        }
+        
+        .parent5 {
+            width: 50%;
+            position: relative;
+            top: 10.5rem;
+            left: 14%;
+            max-width: 40%;
+        }
+        
+        .parent5 h2 {
+            font-size: 3.4rem;
+            font-weight: 200;
+        }
+        
+        .parent5 h1 {
+            font-size: 3.3rem;
+            font-weight: bold;
+            line-height: 4rem;
+        }
+        
+        .parent5 p {
+            color: #6e7070;
+            font-size: 1rem;
+            font-weight: 100;
+            line-height: 1.6rem;
+            max-width: 95%;
+            position: relative;
+            top: 0.8rem;
+        }
+        
+        .parent5 button {
+            position: relative;
+            top: 2.8rem;
+            background-color: #28BF96;
+            border: none;
+            color: white;
+            padding: 16px 30px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: color 0.4s ease;
+            cursor: pointer;
+        }
+        
+        .parent5 button:hover {
+            background-color: #209677;
+        }
+        
+        .parent6 {
+            width: 50%;
+            position: relative;
+        }
+        
+        .parent6 img {
+            position: relative;
+            top: 4%;
+            left: 30%;
+            width: 31rem;
+        }
+        
+        .parent6::before {
+            content: "";
+            background-color: #28BF96;
+            position: absolute;
+            top: 17%;
+            left: 33%;
+            z-index: -1;
+            width: 470px;
+            height: 470px;
+            border-radius: 50%;
+        }
+        
+        .parent6 .box1 {
+            position: relative;
+            bottom: 55%;
+            left: 22%;
+            background-color: #FFFFFF;
+            width: 14rem;
+            height: 5rem;
+            text-align: center;
+            align-content: center;
+            border-radius: 5px;
+            border: none;
+            z-index: 10;
+            padding: 16px 20px;
+            box-shadow: 0px 2px 10px rgb(196, 186, 186);
+        }
+        
+        .parent6 .box2 {
+            position: relative;
+            bottom: 32%;
+            left: 66%;
+            background-color: #FFFFFF;
+            width: 18rem;
+            height: 6.5rem;
+            align-content: center;
+            border-radius: 5px;
+            border: none;
+            z-index: 10;
+            box-shadow: 0px 4px 10px rgb(196, 186, 186);
+        }
+        
+        .box1 .child1 {
+            display: flex;
+        }
+        
+        .box1 .mini {
+            flex-direction: column;
+            display: flex;
+            gap: 3px;
+            position: relative;
+            left: 1rem;
+        }
+        
+        .box1 i {
+            font-size: 2.7rem;
+            position: relative;
+            top: 0.1rem;
+            color: #DEFCF4;
+        }
+        
+        .box2 .child2 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: left;
+            font-size: 1rem;
+            position: relative;
+            left: 1.8rem;
+        }
+        
+        .child2 p i {
+            color: #28BF96;
+            position: relative;
+            left: -0.8rem;
+            font-size: 1.4rem;
+            position: relative;
+            top: 2px;
+        }
+        
+        .child2 p {
+            color: #6e7070;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="parent1">
+            <h2>MEDIBuddy</h2>
+        </div>
+        <div class="parent2">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Courses</a>
+            <a href="#">Pages</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="parent3"><button>Register Now</button></div>
+    </nav>
+
+    <!-- main section -->
+    <div class="parent4">
+        <div class="parent5">
+            <h2>Get Quick</h2>
+            <h1>Medical Services</h1>
+            <p>In today's fast-paced world, access to prompt and efficient medical services is of paramount importance. When faced with a medical emergency or seeking immediate medical attention, the ability to receive quick medical services can significantly
+                impact the outcome of a situation.</p>
+            <button>Get Services</button>
+        </div>
+
+        <div class="parent6"><img src="imgi_1_header-bg-removebg-preview.png" alt="img">
+            <div class="box1">
+                <div class="child1">
+                    <i class="fa-solid fa-circle-user" style="color: #28BF96;"></i>
+                    <div class="mini ">
+                        <h2>1520+</h2>
+                        <p>Active Clinets</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box2 ">
+                <div class="child2 ">
+                    <p> <i class="fa-solid fa-check "></i>Get 20% off on every 1st month</p>
+                    <p>
+                        <i class="fa-solid fa-check "></i>Expert Doctors</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
